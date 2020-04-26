@@ -98,6 +98,7 @@ ul.icons img {
 .thumbnails .card {
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.075);
+    margin-bottom: 40px;
 }
 
 .thumbnails .card:hover {
@@ -126,6 +127,14 @@ ul.icons img {
     text-align: center;
 }
 
+.thumbnails p {
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 2.5;
+    margin: 0;
+    text-align: center;  
+}
+
 .thumbnails a {
     text-decoration: none;
 }
@@ -149,5 +158,9 @@ ul.icons img {
         width: 100%;
         padding: 20px;
         margin: 0;
+    }
+
+    .thumbnails .column {
+        padding: 0px 20px 0px 20px;
     }
 }
