@@ -129,7 +129,7 @@ ul.icons img {
 .thumbnails h3 {
     color: #ffffff;
     font-weight: 300;
-    line-height: 2.5;
+    line-height: 4;
     margin: 0;
     text-align: center;
     font-size: 18px;
@@ -155,7 +155,7 @@ ul.icons img {
 #aboutmeparagraph {
     box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.2), 0 0 0.5em 0 rgb(90, 179, 173);
     border-radius: 5px;
-    background-color: rgba(2, 132, 123, 0.5);
+    background-color: rgba(2, 132, 123, 0.7);
     width: 1000px;
     margin: 0 auto 50px;
     padding: 55px;
@@ -165,7 +165,7 @@ ul.icons img {
     color: white;
     display: block;
     font-weight: 300;
-    line-height: 2.5;
+    line-height: 2;
     margin: 0;
     padding-bottom: 35px;
     font-size: 16px;
@@ -197,7 +197,7 @@ ul.icons img {
     width: 100%;
   }
   
-  .popup .popuptext {
+.popuptext {
     width: 1000px;
     Height: 600px;
     color: #fff;
@@ -208,36 +208,48 @@ ul.icons img {
     position: relative;
   }
 
-  .popupmaintext {
-    overflow-y: auto;
-    height: 100%;
-    padding: 55px;
-  }
-
-  .popup .popuptext p{
+  .popuptext p{
     text-align: left;
     padding-bottom: 35px;
     font-size: 16px;
   }
 
-  .popup .popuptext h2{
+  .popuptext h2{
     text-align: left;
-    padding: 10px 0 5px 0;
     margin: 0px;
     font-size: 22px;
   }
 
-  .popup .popuptext h3{
+  .popuptext h3{
     text-align: left;
     text-decoration: underline;
     padding-bottom: 35px;
     font-size: 18px;
   }
 
-  .popup .popuptext a{
+  .popuptext a{
     text-align: left;
     color: #fff; 
     font-size: 18px;
+  }
+
+  #cookieprebulletpointp p {
+      padding-bottom: 5px;
+  }
+
+  .cookiebulletpoints {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.5;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    margin: 0;
+  }
+
+  .popupmaintext {
+    overflow-y: auto;
+    height: 100%;
+    padding: 55px;
   }
 
   .popupcontainer {
@@ -257,14 +269,13 @@ ul.icons img {
       height: 50px;
       width: 50px;
       border-radius: 100%;
-      padding: 5px;
       position: absolute;
-      top: 15px;
-      right: 15px;
+      top: -20px;
+      right: -20px;
   }
   
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
+  .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
@@ -307,7 +318,7 @@ ul.icons img {
     .thumbnails p {
         color: #ffffff;
         font-weight: 300;
-        line-height: 2.5;
+        line-height: 2;
         margin: 0;
         text-align: center; 
     }
@@ -318,23 +329,34 @@ ul.icons img {
         box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.2), 0 0 0.5em 0 rgb(90, 179, 173);
     }
 
-    .popup .popuptext {
+    .popuptext {
         width: 100%;
         Height: 100%;
         margin: 0;
         font-size: 16px;
       }
 
-    .popup .popuptext h2 {
-        padding-top: 10px;
+    .popuptext p {
+        text-align: left;
+        padding-bottom: 30px;
     }
-    
-    .popup .popuptext h2 {
+
+    .popuptext p:last-child {
+        padding-bottom: 20px;
+    }
+
+    .popuptext h2 {
+        padding-top: 10px;
         font-size: 20px;
     }
 
-    .popup .popuptext a {
+    .popuptext h3 {
+        padding-bottom: 30px;
+    }
+    
+    .popuptext a {
         font-size: 18px;
+        padding: 0;
     }
 
     .popupmaintext {
@@ -342,12 +364,10 @@ ul.icons img {
     }
 
     .popupcontainer {
-        padding: 40px;
+        padding: 30px;
     }
-
-    .popupcontainer img {
-        top: -20px;
-        right: -20px;
+    .cookiebulletpoints {
+        padding: 30px; 
     }
     
 }
